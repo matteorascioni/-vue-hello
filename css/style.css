@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    max-height: 100vh;
+    background-color: #31c2b6fa;
+}
+
+#app {
+    text-align: center;
+    width: 30%;
+    margin: 25vh auto;
+    padding: 20px;
+    border: 5px solid #058ec3;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#app:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #058ec3;
+}
+
+#app > img {
+    max-width: 100%;
+}
