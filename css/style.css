@@ -6,8 +6,10 @@
 
 body {
     font-family: sans-serif;
-    max-height: 100vh;
-    background-color: #31c2b6fa;
+    max-height: 100vh;  
+    background-image: url('../img/pexels.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #app {
@@ -22,7 +24,6 @@ body {
 
 #app:hover {
     cursor: pointer;
-    opacity: 0.8;
 }
 
 h1 {
